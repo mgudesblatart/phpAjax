@@ -1,0 +1,20 @@
+for user registration
+
+username - check if it is taken, if it is send error upon exiting input box.
+		else
+			check if all forms are filled, if they aren't send error 				upon submit
+		else
+			check if passwords match, if not send error upon submit
+		else
+			send to database
+				Registration is complete
+				redirect to login page with completion message
+
+	
+
+	if(username == existing username){ Error: This username already exists}
+	elseif(empty username && empty pass etc ){ Error: Please complete XYZ field}
+	elseif(password =/ password 2){Error: Passwords do not match}
+	else{ send info to database
+		Redirect to login page with Session_[registered]}
+
